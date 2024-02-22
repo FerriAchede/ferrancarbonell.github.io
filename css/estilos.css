@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --main-color: #16b93a;
+    --main-color: #6d2ab9;
 }
 
 header, section, footer {
@@ -39,9 +39,16 @@ section {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--main-color);
     color: #fff;
+}
+
+footer a{
+    color: aliceblue;
+}
+footer a:hover{
+    color: floralwhite;
 }
 
 #idiomas {
@@ -65,6 +72,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 180px;
+    height: 100%;
     text-align: center;
 }
 
@@ -95,12 +103,20 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 180px;
+    height: 100%;
     text-align: center;
 }
 
 .skill span {
     font-size: 50px;
     margin-bottom: 10px;
+}
+.skill img, .hobbie img{
+    width: 50px;
+    height: auto;
+}
+.icons {
+    display: inline-block;
 }
 
 #experiencia {
@@ -123,7 +139,8 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajusta según necesidad */
+    width: 100%; /* Ajusta según necesidad */
+    height: 100%;
     text-align: center;
 }
 
@@ -153,6 +170,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 250px; /* Ajuste según necesidad */
+    height: 100%;
     text-align: center;
 }
 
@@ -161,19 +179,19 @@ footer {
     margin-bottom: 10px;
 }
 
-#formacion-complementaria {
+#pasatiempos {
     background-color: #f4f4f4;
     padding: 20px;
 }
 
-.courses-container {
+.hobbies-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
 }
 
-.course {
+.hobbie {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,10 +200,11 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 250px; /* Ajuste según necesidad */
+    height: 100%;
     text-align: center;
 }
 
-.course span {
+.hobbie span {
     font-size: 50px;
     margin-bottom: 10px;
 }
