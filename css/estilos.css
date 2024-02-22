@@ -18,6 +18,23 @@ header, section, footer {
 
 header {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nombreCv{
+    flex: 2;
+}
+.fotoperfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.fotoperfil img{
+    max-width: 200px;
+    height: auto;
 }
 
 h1 {
